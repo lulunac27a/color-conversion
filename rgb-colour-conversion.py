@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[22]:
-
-
 import colour
 import numpy as np
 red = float(input('red: '))
@@ -45,10 +39,3 @@ lab = colour.XYZ_to_Lab(xyz)
 print("Lab:", "L", lab[0], "j", lab[1], "g", lab[2])
 luv = colour.XYZ_to_Luv(xyz)
 print("Luv:", "L", luv[0], "j", luv[1], "g", luv[2])
-
-
-# In[ ]:
-
-
-
-
