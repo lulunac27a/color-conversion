@@ -1,0 +1,5 @@
+library(munsellinterpol)
+red <- as.numeric(readline('red: '))
+green <- as.numeric(readline('green: '))
+blue <- as.numeric(readline('blue: '))
+print(RGBtoMunsell(c(red, green, blue)))

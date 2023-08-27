@@ -1,0 +1,5 @@
+library(munsellinterpol)
+library(colorspace)
+hex <- readline('hex: ')
+rgb <- hex2RGB(hex)
+print(RGBtoMunsell(rgb@coords, maxSignal = 1))
